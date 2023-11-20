@@ -19,7 +19,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", default="")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['apartments-be-2141515323.eu-north-1.elb.amazonaws.com']
 
 
 # Application definition
